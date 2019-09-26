@@ -42,3 +42,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+使用 yarn 创建项目。
+
+$ yarn create react-app antd-demo-ts --typescript
+如果你使用的是 npm（接下来我们都会用 yarn 作为例子，如果你习惯用 npm 也没问题）。
+
+$ npx create-react-app antd-demo-ts --typescript
+然后我们进入项目并启动。
+
+$ cd antd-demo-ts
+$ yarn start
+引入 antd#
+$ yarn add antd
+引入 react-app-rewired 并修改 package.json 里的启动配置。由于新的 react-app-rewired@2.x 版本的关系，你还需要安装 customize-cra。
+
+$ yarn add react-app-rewired customize-cra
+$ yarn add babel-plugin-import

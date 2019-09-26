@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Button } from 'antd';
 import './App.css';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="">
+       
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <Button type="primary">ceshi</Button>
     </div>
   );
 }
